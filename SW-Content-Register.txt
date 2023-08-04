@@ -1,0 +1,53 @@
+Release Name:     an-flexio_8080_rt1050
+Release Version:  1.0
+Package License:  BSD-3-Clause
+License File:     LICENSE.txt
+Description:      This demo shows how to use the FlexIO module to emulate the 8080 parallel bus and to drive a graphic TFT LCD with the 8080 bus interface.
+Release Location: https://github.com/nxp-appcodehub/an-flexio_8080_rt1050
+Origin:           NXP
+
+FlexIO 8080 LCD Example    Name: FlexIO 8080 LCD Example                                
+                           Version: 1.0                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt
+                           Format: source code, binary, project files, linker
+                           files                                             
+                           Description: LCD example to show how to use FlexIO to
+						   drive a LCD with 8080 bus interface..                                       
+                           Location: boards/evbimxrt1050/user_apps/flexio_8080_lcd                        
+                           Origin: NXP (BSD-3-Clause) 
+
+Peripheral Drivers         Name: Peripheral Drivers                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: devices/MIMXRT1052/drivers                
+                           Origin: NXP (BSD-3-Clause)                                               
+
+Device                     Name: SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: devices/MIMXRT1052                       
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.3.0
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.3.0
